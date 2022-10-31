@@ -1,0 +1,34 @@
+.modalContent {
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(24,24,24,1) 57%, rgba(17,17,17,0.2777485994397759) 100%);;
+    padding: 10px 20px;
+    
+}
+.modalContent h1 {
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.modalContent p {
+    color: #E5E5E5;
+    font-size:12px;
+    margin-bottom: 10px;
+}
+.bgModal .closeModal {
+    background-color: #E50914;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 5px;
+    border:none;
+    padding:5px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity:0.8;
+    cursor:pointer;
+}
+.bgModal .closeModal:hover {
+    opacity: 1;
+}
